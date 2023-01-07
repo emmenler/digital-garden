@@ -1,1 +1,1 @@
-[Visit the page!](https://lifeafter40.netlify.app/){:target="\_blank"}
+[Visit the page!](https://external.ink?to=/lifeafter40.netlify.app/)
