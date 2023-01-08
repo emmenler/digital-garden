@@ -61,12 +61,32 @@ html {
 
 /* TOPICS SECTION  */
 .topic-container {
-  display: grid;
-  grid-template-columns: 2rem 1fr auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.posts-container {
-  grid-column: 2 / 3;
+.open .name-container {
+  background-color: var(--main-higlight-color);
+  color: var(--main-bg-color);
+  border-bottom: none;
+}
+
+.closed .name-container {
+  background-color: inherit;
+  color: inherit;
+  border-bottom: solid 1px var(--main-higlight-color);
+}
+
+.name-container {
+  display: flex;
+  padding: 0.4rem 0.8rem;
+  align-items: center;
+}
+
+.topic-name {
+  flex: auto;
 }
 
 .open .posts-container {
@@ -76,6 +96,12 @@ html {
 .closed .posts-container {
   display: none;
 }
+
+.posts-container {
+  padding: 0.8rem 1.6rem;
+  background-color: #f8f9fa;
+}
+
 .topic-icon {
   fill: var(--main-font-color);
   width: 2rem;
