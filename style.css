@@ -54,6 +54,18 @@ html {
 }
 
 /* FOOTER  */
+.page-footer {
+  padding: 2rem 0;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6rem;
+}
+
 .footer-icon {
   fill: var(--main-font-color);
   width: 2rem;
