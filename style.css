@@ -40,7 +40,7 @@ html {
 /* HEADER  */
 .page-header {
   text-align: center;
-  padding: 2rem 0;
+  padding: 6rem 0;
 }
 
 .heading-main {
@@ -52,6 +52,9 @@ html {
 .text-highlight {
   color: var(--main-higlight-color);
 }
+
+/* FOOTER  */
+
 /*
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
