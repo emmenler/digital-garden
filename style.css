@@ -26,6 +26,12 @@ html {
   --main-bg-color: #d3f9d8;
 }
 
+.flex-list-vertical {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
 /* PAGE STRUCTURE */
 .wrapper {
   background-color: var(--main-bg-color);
@@ -54,6 +60,26 @@ html {
 }
 
 /* TOPICS SECTION  */
+.topic-container {
+  display: grid;
+  grid-template-columns: 2rem 1fr auto;
+}
+
+.posts-container {
+  grid-column: 2 / 3;
+}
+
+.open .posts-container {
+  display: block;
+}
+
+.closed .posts-container {
+  display: none;
+}
+.topic-icon {
+  fill: var(--main-font-color);
+  width: 2rem;
+}
 
 /* FOOTER  */
 .page-footer {
