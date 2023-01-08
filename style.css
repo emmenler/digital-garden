@@ -65,12 +65,14 @@ html {
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 1.4rem;
 }
 
 .open .name-container {
   background-color: var(--main-higlight-color);
   color: var(--main-bg-color);
   border-bottom: none;
+  border-radius: 4px 4px 0 0;
 }
 
 .closed .name-container {
@@ -91,6 +93,7 @@ html {
 
 .open .posts-container {
   display: block;
+  border-radius: 0 0 4px 4px;
 }
 
 .closed .posts-container {
