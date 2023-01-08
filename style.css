@@ -60,12 +60,16 @@ html {
 }
 
 /* TOPICS SECTION  */
+.page-topics {
+  margin-bottom: 4.8rem;
+}
+
 .topic-container {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 1.4rem;
+  margin-bottom: 2.4rem;
 }
 
 .open .name-container {
