@@ -11,6 +11,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1;
   font-weight: 400;
+  color: var(--main-font-color);
 }
 
 html {
@@ -23,7 +24,28 @@ html {
   --main-font-color: #170901;
 }
 
-/* WRAPPER  */
+/* PAGE STRUCTURE */
+.wrapper {
+  background-color: #8ce99a;
+}
+
+.page-container {
+  background-color: #8ce99a;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER  */
+.page-header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.heading-main {
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
 /*
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
