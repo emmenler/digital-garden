@@ -54,7 +54,11 @@ html {
 }
 
 /* FOOTER  */
-
+.footer-icon {
+  fill: var(--main-font-color);
+  width: 2rem;
+  height: 2rem;
+}
 /*
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
