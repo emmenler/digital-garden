@@ -1,9 +1,17 @@
 'use strict';
-const topicEl = document.querySelector('.topic-container');
+const topicElList = document.querySelectorAll('.topic-container');
 
-topicEl.addEventListener('click', openTopic);
+for (const topicEl of topicElList) {
+  topicEl.addEventListener('click', () => {
+    removeClasses();
+    topicEl.classList.remove('closed');
+    topicEl.classList.add('open');
+  });
+}
 
-function openTopic() {
-  topicEl.classList.toggle('closed');
-  topicEl.classList.toggle('open');
+function removeClasses() {
+  topicElList.forEach((topicEl) => {
+    topicEl.classList.remove('open');
+    topicEl.classList.add('closed');
+  });
 }
