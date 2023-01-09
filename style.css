@@ -53,7 +53,7 @@ html {
 
 .heading-main {
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-bottom: 1.2rem;
 }
 
@@ -63,7 +63,7 @@ html {
 
 /* TOPICS SECTION  */
 .page-topics {
-  margin-bottom: 4.8rem;
+  margin-bottom: 5.6rem;
 }
 
 .topic-container {
@@ -71,7 +71,7 @@ html {
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .open .name-container {
@@ -95,6 +95,7 @@ html {
 
 .topic-name {
   flex: auto;
+  font-size: 2rem;
 }
 
 .open .posts-container {
@@ -129,10 +130,14 @@ html {
   margin: 0 6rem;
 }
 
+.footer-text {
+  font-size: 1.2rem;
+}
+
 .footer-icon {
   fill: var(--main-font-color);
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
 }
 /*
 FONT SIZE SYSTEM (px)
