@@ -3,9 +3,14 @@ const topicElList = document.querySelectorAll('.topic-container');
 
 for (const topicEl of topicElList) {
   topicEl.addEventListener('click', () => {
-    removeClasses();
-    topicEl.classList.remove('closed');
-    topicEl.classList.add('open');
+    if (topicEl.classList.contains('open')) {
+      topicEl.classList.toggle('closed');
+      topicEl.classList.toggle('open');
+    } else {
+      removeClasses();
+      topicEl.classList.toggle('closed');
+      topicEl.classList.toggle('open');
+    }
   });
 }
 
