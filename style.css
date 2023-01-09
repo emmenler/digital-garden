@@ -40,8 +40,9 @@ html {
 .page-container {
   background-color: var(--main-bg-color);
   max-width: 90%;
-  margin: 0 auto;
+  margin: auto auto;
   padding: 6rem 0;
+  min-height: 713px;
 }
 
 /* HEADER  */
