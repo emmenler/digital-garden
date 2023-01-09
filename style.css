@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+/* GLOBAL CONFIGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--main-font-color);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-font-color: #170901;
+  --main-higlight-color: #2b8a3e;
+  --main-bg-color: #d3f9d8;
+}
+
+.flex-list-vertical {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+/* PAGE STRUCTURE */
+.wrapper {
+  background-color: var(--main-bg-color);
+}
+
+.page-container {
+  background-color: var(--main-bg-color);
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+
+/* HEADER  */
+.page-header {
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.heading-main {
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.text-highlight {
+  color: var(--main-higlight-color);
+}
+
+/* TOPICS SECTION  */
+.page-topics {
+  margin-bottom: 4.8rem;
+}
+
+.topic-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2.4rem;
+}
+
+.open .name-container {
+  background-color: var(--main-higlight-color);
+  color: var(--main-bg-color);
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.closed .name-container {
+  background-color: inherit;
+  color: inherit;
+  border-bottom: solid 1px var(--main-higlight-color);
+}
+
+.name-container {
+  display: flex;
+  padding: 0.4rem 0.8rem;
+  align-items: center;
+}
+
+.topic-name {
+  flex: auto;
+}
+
+.open .posts-container {
+  display: block;
+  border-radius: 0 0 4px 4px;
+}
+
+.closed .posts-container {
+  display: none;
+}
+
+.posts-container {
+  padding: 0.8rem 1.6rem;
+  background-color: #f8f9fa;
+}
+
+.topic-icon {
+  fill: var(--main-font-color);
+  width: 2rem;
+}
+
+/* FOOTER  */
+.page-footer {
+  padding: 2rem 0;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6rem;
+}
+
+.footer-icon {
+  fill: var(--main-font-color);
+  width: 2rem;
+  height: 2rem;
+}
+/*
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
