@@ -86,7 +86,8 @@ html {
   padding: 0.8rem 1.2rem;
   align-items: center;
   border-bottom: solid 1px var(--main-higlight-color);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  position: relative;
 }
 
 .topic-name {
@@ -113,6 +114,21 @@ html {
 .topic-icon {
   fill: var(--main-font-color);
   width: 2rem;
+  height: 2rem;
+}
+
+.open .topic-icon {
+  opacity: 0;
+}
+
+.open-icon {
+  position: absolute;
+  right: 12px;
+  opacity: 0;
+}
+
+.open .open-icon {
+  opacity: 1;
 }
 
 /* FOOTER  */

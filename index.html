@@ -40,6 +40,10 @@
                   d="M112 184l144 144 144-144"
                 />
               </svg>
+              <ion-icon
+                class="topic-icon open-icon"
+                name="chevron-up-outline"
+              ></ion-icon>
             </div>
             <div class="posts-container">
               <ul class="posts-list flex-list-vertical">
@@ -197,9 +201,18 @@
         </footer>
       </div>
     </div>
-    <!-- <script>'use strict';
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      'use strict';
       const topicElList = document.querySelectorAll('.topic-container');
-      
+
       for (const topicEl of topicElList) {
         topicEl.addEventListener('click', () => {
           if (topicEl.classList.contains('open')) {
@@ -210,11 +223,12 @@
           }
         });
       }
-      
+
       function removeClasses() {
         topicElList.forEach((topicEl) => {
           topicEl.classList.remove('open');
         });
-      }</script> -->
+      }
+    </script>
   </body>
 </html>
