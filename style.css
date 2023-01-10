@@ -81,16 +81,11 @@ html {
   border-radius: 4px 4px 0 0;
 }
 
-.closed .name-container {
-  background-color: inherit;
-  color: inherit;
-  border-bottom: solid 1px var(--main-higlight-color);
-}
-
 .name-container {
   display: flex;
-  padding: 0.4rem 0.8rem;
+  padding: 0.8rem 1.2rem;
   align-items: center;
+  border-bottom: solid 1px var(--main-higlight-color);
 }
 
 .topic-name {
@@ -99,17 +94,17 @@ html {
 }
 
 .open .posts-container {
-  display: block;
   border-radius: 0 0 4px 4px;
-}
-
-.closed .posts-container {
-  display: none;
+  padding: 0.8rem 1.6rem;
+  height: 5rem;
 }
 
 .posts-container {
-  padding: 0.8rem 1.6rem;
   background-color: #f8f9fa;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: all 0.5s ease-in-out;
 }
 
 .topic-icon {
