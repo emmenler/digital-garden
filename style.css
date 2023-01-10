@@ -40,8 +40,9 @@ html {
 .page-container {
   background-color: var(--main-bg-color);
   max-width: 90%;
-  margin: 0 auto;
+  margin: auto auto;
   padding: 6rem 0;
+  min-height: 713px;
 }
 
 /* HEADER  */
@@ -52,7 +53,7 @@ html {
 
 .heading-main {
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 3rem;
   margin-bottom: 1.2rem;
 }
 
@@ -62,7 +63,7 @@ html {
 
 /* TOPICS SECTION  */
 .page-topics {
-  margin-bottom: 4.8rem;
+  margin-bottom: 5.6rem;
 }
 
 .topic-container {
@@ -70,7 +71,7 @@ html {
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .open .name-container {
@@ -80,34 +81,30 @@ html {
   border-radius: 4px 4px 0 0;
 }
 
-.closed .name-container {
-  background-color: inherit;
-  color: inherit;
-  border-bottom: solid 1px var(--main-higlight-color);
-}
-
 .name-container {
   display: flex;
-  padding: 0.4rem 0.8rem;
+  padding: 0.8rem 1.2rem;
   align-items: center;
+  border-bottom: solid 1px var(--main-higlight-color);
 }
 
 .topic-name {
   flex: auto;
+  font-size: 2rem;
 }
 
 .open .posts-container {
-  display: block;
   border-radius: 0 0 4px 4px;
-}
-
-.closed .posts-container {
-  display: none;
+  padding: 0.8rem 1.6rem;
+  height: 5rem;
 }
 
 .posts-container {
-  padding: 0.8rem 1.6rem;
   background-color: #f8f9fa;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: all 0.5s ease-in-out;
 }
 
 .topic-icon {
@@ -128,10 +125,14 @@ html {
   margin: 0 6rem;
 }
 
+.footer-text {
+  font-size: 1.2rem;
+}
+
 .footer-icon {
   fill: var(--main-font-color);
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
 }
 /*
 FONT SIZE SYSTEM (px)
