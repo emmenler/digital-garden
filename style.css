@@ -98,7 +98,7 @@ html {
 .open .posts-container {
   border-radius: 0 0 4px 4px;
   padding: 0.8rem 1.6rem;
-  height: 5rem;
+  height: 8rem;
   opacity: 1;
 }
 
@@ -130,6 +130,26 @@ html {
 
 .open .open-icon {
   opacity: 1;
+}
+
+/* POSTS LINKS  */
+.posts-list {
+  gap: 0.8rem;
+}
+
+.post-link {
+  font-size: 1.6rem;
+}
+
+.post-link:link,
+.post-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-link:hover,
+.post-link:active {
+  border-bottom: solid 1px var(--main-higlight-color);
 }
 
 /* FOOTER  */
