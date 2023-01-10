@@ -177,26 +177,5 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script>
-      'use strict';
-      const topicElList = document.querySelectorAll('.topic-container');
-
-      for (const topicEl of topicElList) {
-        topicEl.addEventListener('click', () => {
-          if (topicEl.classList.contains('open')) {
-            topicEl.classList.toggle('open');
-          } else {
-            removeClasses();
-            topicEl.classList.toggle('open');
-          }
-        });
-      }
-
-      function removeClasses() {
-        topicElList.forEach((topicEl) => {
-          topicEl.classList.remove('open');
-        });
-      }
-    </script>
   </body>
 </html>
