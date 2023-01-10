@@ -115,6 +115,7 @@ html {
   fill: var(--main-font-color);
   width: 2rem;
   height: 2rem;
+  transition: opacity 0.1s ease;
 }
 
 .open .topic-icon {
