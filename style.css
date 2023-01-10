@@ -98,6 +98,7 @@ html {
   border-radius: 0 0 4px 4px;
   padding: 0.8rem 1.6rem;
   height: 5rem;
+  opacity: 1;
 }
 
 .posts-container {
@@ -106,6 +107,7 @@ html {
   overflow: hidden;
   overflow-y: auto;
   transition: all 0.5s ease-in-out;
+  opacity: 0;
 }
 
 .topic-icon {
