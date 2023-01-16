@@ -24,8 +24,9 @@ html {
   --main-font-color: #170901;
   --main-higlight-color: #2b8a3e;
   --main-bg-color: #d3f9d8;
+  --posts-1-items: 30px;
   --posts-2-items: 54px;
-  --posts-4-items: 108px;
+  --posts-4-items: 106px;
 }
 
 .flex-list-vertical {
@@ -133,8 +134,13 @@ html {
 
 .open #posts-4,
 .open #posts-5,
-.open #posts-6 {
+.open #posts-6,
+.open #posts-7 {
   height: var(--posts-2-items);
+}
+
+.open #posts-8 {
+  height: var(--posts-1-items);
 }
 
 /* CUSTOM POSTS CONTAINER HEIGHTS */
