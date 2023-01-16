@@ -110,7 +110,7 @@ html {
 .open .posts-container {
   border-radius: 0 0 4px 4px;
   padding: 0.8rem 1.6rem;
-  height: 78px;
+  height: 81px;
   opacity: 1;
 }
 
@@ -124,11 +124,16 @@ html {
 }
 
 /* CUSTOM POSTS CONTAINER HEIGHTS */
-/* 1 post - 26px */
+/* 1 post - 27px */
 .open #posts-1 {
-  height: 104px;
+  height: 108px;
 }
 
+.open #posts-4 {
+  height: 54px;
+}
+
+/* CUSTOM POSTS CONTAINER HEIGHTS */
 .topic-icon {
   fill: var(--main-font-color);
   width: 2rem;
