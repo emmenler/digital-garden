@@ -39,7 +39,7 @@ html {
 
 .page-container {
   background-color: var(--main-bg-color);
-  max-width: 90%;
+  max-width: 90%; /* 288px */
   margin: auto auto;
   padding: 6rem 0;
   min-height: 100vh;
@@ -64,7 +64,7 @@ html {
 
 .blog-description {
   display: inline-block;
-  width: 70%;
+  max-width: 20rem;
   line-height: 1.3;
   margin-bottom: 0.8rem;
 }
