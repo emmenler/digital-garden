@@ -44,7 +44,6 @@ html {
   background-color: var(--main-bg-color);
   max-width: 90%; /* 288px */
   margin: auto auto;
-  padding: 6rem 0;
   min-height: 100vh;
 }
 
@@ -62,7 +61,7 @@ html {
 
 .author {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .blog-description {
@@ -70,6 +69,7 @@ html {
   max-width: 20rem;
   line-height: 1.3;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 .text-highlight {
@@ -78,7 +78,7 @@ html {
 
 /* TOPICS SECTION  */
 .page-topics {
-  margin-bottom: 5.6rem;
+  margin-bottom: 5rem;
 }
 
 .topic-container {
@@ -187,7 +187,7 @@ html {
 
 /* FOOTER  */
 .page-footer {
-  padding: 2rem 0;
+  padding-bottom: 4rem;
 }
 
 .footer-list {
