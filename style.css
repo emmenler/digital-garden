@@ -146,11 +146,11 @@ html {
 
 /* POSTS LINKS  */
 .posts-list {
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
 .post-link {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .post-link:link,
