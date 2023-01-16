@@ -129,7 +129,8 @@ html {
   height: 108px;
 }
 
-.open #posts-4 {
+.open #posts-4,
+.open #posts-5 {
   height: 54px;
 }
 
