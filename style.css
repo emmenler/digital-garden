@@ -24,6 +24,8 @@ html {
   --main-font-color: #170901;
   --main-higlight-color: #2b8a3e;
   --main-bg-color: #d3f9d8;
+  --posts-2-items: 54px;
+  --posts-4-items: 108px;
 }
 
 .flex-list-vertical {
@@ -126,13 +128,13 @@ html {
 /* CUSTOM POSTS CONTAINER HEIGHTS */
 /* 1 post - 27px */
 .open #posts-1 {
-  height: 108px;
+  height: var(--posts-4-items);
 }
 
 .open #posts-4,
 .open #posts-5,
 .open #posts-6 {
-  height: 54px;
+  height: var(--posts-2-items);
 }
 
 /* CUSTOM POSTS CONTAINER HEIGHTS */
