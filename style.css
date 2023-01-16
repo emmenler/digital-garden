@@ -57,7 +57,7 @@ html {
 .heading-main {
   font-weight: 500;
   font-size: 3rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.6rem;
 }
 
 .author {
@@ -69,7 +69,7 @@ html {
   display: inline-block;
   max-width: 20rem;
   line-height: 1.3;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .text-highlight {
