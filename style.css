@@ -24,9 +24,6 @@ html {
   --main-font-color: #170901;
   --main-higlight-color: #2b8a3e;
   --main-bg-color: #d3f9d8;
-  --posts-1-items: 30px;
-  --posts-2-items: 54px;
-  --posts-4-items: 106px;
 }
 
 .flex-list-vertical {
@@ -113,7 +110,7 @@ html {
 .open .posts-container {
   border-radius: 0 0 4px 4px;
   padding: 0.8rem 1.6rem;
-  height: 81px;
+  height: auto;
   opacity: 1;
 }
 
@@ -124,23 +121,6 @@ html {
   overflow-y: auto;
   transition: all 0.4s ease-in-out;
   opacity: 0;
-}
-
-/* CUSTOM POSTS CONTAINER HEIGHTS */
-/* 1 post - 27px */
-.open #posts-1 {
-  height: var(--posts-4-items);
-}
-
-.open #posts-4,
-.open #posts-5,
-.open #posts-6,
-.open #posts-7 {
-  height: var(--posts-2-items);
-}
-
-.open #posts-8 {
-  height: var(--posts-1-items);
 }
 
 /* CUSTOM POSTS CONTAINER HEIGHTS */
