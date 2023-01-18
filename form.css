@@ -11,9 +11,6 @@ body {
 }
 
 /* PAGE STRUCTURE */
-.wrapper {
-  max-height: 100vh;
-}
 
 .container {
   margin: 200px auto;
