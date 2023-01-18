@@ -1,13 +1,14 @@
 'use strict';
 const topicElList = document.querySelectorAll('.topic-container');
+const nameElList = document.querySelectorAll('.name-container');
 
-for (const topicEl of topicElList) {
-  topicEl.addEventListener('click', () => {
-    if (topicEl.classList.contains('open')) {
-      topicEl.classList.toggle('open');
+for (const nameEl of nameElList) {
+  nameEl.addEventListener('click', () => {
+    if (nameEl.parentElement.classList.contains('open')) {
+      nameEl.parentElement.classList.toggle('open');
     } else {
       removeClasses();
-      topicEl.classList.toggle('open');
+      nameEl.parentElement.classList.toggle('open');
     }
   });
 }
