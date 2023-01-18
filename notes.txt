@@ -1,3 +1,0 @@
-GENERAL STYLING
-- Font family: Ubuntu
-- Colors: font - #170901, wrapper - #d3f9d8, body - #8ce99a, accent - #40c057 #2b8a3e
