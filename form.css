@@ -9,3 +9,13 @@ body {
   line-height: 1;
   font-size: 400;
 }
+
+/* PAGE STRUCTURE */
+.wrapper {
+  max-height: 100vh;
+}
+
+.container {
+  margin: 200px auto;
+  width: 200px;
+}
