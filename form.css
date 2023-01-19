@@ -48,3 +48,20 @@ body {
 }
 
 /* INPUT COMPONENT */
+
+.post-input {
+  width: 300px;
+  padding: 4px;
+}
+
+.clear-input {
+  width: 100px;
+  background-color: #fff;
+  border: solid 1px #2b8a3e;
+  padding: 4px;
+}
+
+.clear-input:active,
+.clear-input:hover {
+  border: solid 1px #40c057;
+}
