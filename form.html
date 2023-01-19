@@ -10,11 +10,16 @@
   <body>
     <div class="wrapper">
       <div class="container">
-        <form action="" class="post-form">
+        <form
+          action="https://formsubmit.co/p.kulikov.dev@gmail.com"
+          method="POST"
+          class="post-form"
+        >
           <ul class="input-list">
             <li class="input-item">
               <input
                 type="text"
+                name="тэг"
                 placeholder="тэг поста"
                 class="post-input post-tag"
               />
@@ -22,6 +27,7 @@
             <li class="input-item">
               <input
                 type="text"
+                name="заголовок"
                 placeholder="заголовок поста"
                 class="post-input post-head"
               />
@@ -29,12 +35,15 @@
             <li class="input-item">
               <input
                 type="text"
+                name="ссылка"
                 placeholder="ссылка на пост"
                 class="post-input post-link"
               />
             </li>
             <li class="input-item">
-              <button class="send-input form-btn">Отправить данные</button>
+              <button type="submit" class="send-input form-btn">
+                Отправить данные
+              </button>
               <button class="clear-input form-btn">Очистить</button>
             </li>
           </ul>
