@@ -28,11 +28,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 600px;
+  width: 600px;
   border: solid 2px #40c057;
   padding: 20px;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0 20px;
 }
 
 .input-list {
