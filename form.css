@@ -11,6 +11,10 @@ body {
 }
 
 /* PAGE STRUCTURE */
+.wrapper {
+  height: 100vh;
+  background-color: #d3f9d8;
+}
 
 .container {
   align-items: center;
@@ -25,9 +29,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 600px;
-  border: solid 2px aliceblue;
+  border: solid 2px #40c057;
   padding: 20px;
   border-radius: 20px;
+  background-color: #fff;
 }
 
 .input-list {
