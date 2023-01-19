@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  max-width: 600px;
   border: solid 2px #40c057;
   padding: 20px;
   border-radius: 20px;
@@ -68,4 +68,16 @@ body {
 
 .send-input {
   flex: 1;
+}
+
+/* MOBILE VERSION */
+@media (max-width: 425px) {
+  .post-input {
+    width: 200px;
+    padding: 8px;
+  }
+
+  .form-btn {
+    padding: 6px;
+  }
 }
