@@ -1,3 +1,15 @@
+/* MOBILE VERSION */
+@media (max-width: 425px) {
+  .post-input {
+    width: 200px;
+    padding: 8px;
+  }
+
+  .form-btn {
+    padding: 6px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -68,16 +80,4 @@ body {
 
 .send-input {
   flex: 1;
-}
-
-/* MOBILE VERSION */
-@media (max-width: 425px) {
-  .post-input {
-    width: 200px;
-    padding: 8px;
-  }
-
-  .form-btn {
-    padding: 6px;
-  }
 }
