@@ -7,17 +7,29 @@
 body {
   font-family: sans-serif;
   line-height: 1;
-  font-size: 400;
+  font-weight: 400;
 }
 
 /* PAGE STRUCTURE */
 
 .container {
-  margin: 200px auto;
-  width: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 600px;
 }
 
 /* FORM */
+.post-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border: solid 2px aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
 .input-list {
   display: flex;
   gap: 20px;
