@@ -1,7 +1,7 @@
 /* MOBILE VERSION */
 @media (max-width: 425px) {
   .post-input {
-    width: 200px;
+    max-width: 200px;
     padding: 8px;
   }
 
