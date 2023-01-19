@@ -16,3 +16,11 @@ body {
   margin: 200px auto;
   width: 200px;
 }
+
+/* FORM */
+.input-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-direction: column;
+}
